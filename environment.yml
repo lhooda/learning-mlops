@@ -3,4 +3,8 @@ channels:
   - defaults
 dependencies:
   - python=3.12
-prefix: /home/codespace/anaconda3/envs/mlops
+  - pyarrow
+  - jupyterlab
+  - ipykernel
+  - pandas
+prefix: /home/hooda/anaconda3/envs/mlops
